@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tablet.css" media="(min-width:768px) and (max-width:1024px)">
+    <link rel="stylesheet" href="./mobile.css" media=" (min-width:320px) and (max-width:768px)">
+    <title>Burger Delight</title>
+</head>
+<body>
+
+    <!-- hero-section -->
+    <div class="hero-section">
+        <!--navbar-section-->
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./images/logo 1.png" alt="logo">
+            </div>
+            <div class="navbar-links" id="navLinks">
+                <a href="">Home</a>
+                <a href="">Special</a>
+                <a href="">About Us</a>
+                <a href="">Menu</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="bars" onclick="toggleNav()">
+                <p><i class="fa-solid fa-bars"></i></p>
+            </div>
+            <div class="sign-in">
+                <a href="">Sign In</a>
+            </div>
+        </nav>
+
+        <!--hero-content-->
+        <div class="hero-content">
+            <h1>Burgar Delight</h1>
+            <p>Explore our delicious burger</p>
+            <div class="buttons">
+                <button class="primary-btn">Order Now</button>
+                <button class="secondary-btn">Contact Us</button>
+            </div>
+        </div>
+    </div>
+
+    <!--second-section-->
+    <div class="top-menu">
+        <div class="top-menu-img">
+            <img  class="burger1" src="./images/top-img5.jpg" alt="burger">
+            <h1>Cheese Burger</h1>
+            <p> A juicy beef patty topped<br> with melted cheddar cheese,<br> lettuce, tomato, and a slice<br> of red onion on a toasted bun.</p>
+        </div>
+        <div class="top-menu-img">
+            <img  class="burger2" src="./images/top-img2.jpeg" alt="burger">
+            <h1>Spicy Burger</h1>
+            <p>A beef patty topped with pepper <br>jack cheese, crispy bacon,<br> avocado, lettuce, and a spicy<br> chipotle mayo on a ciabatta bun.
+            </p>
+        </div>
+        <div class="top-menu-img">
+            <img  class="burger3" src="./images/top-img3.jpeg" alt="burger">
+            <h1>Greek Burger</h1>
+            <p>A lamb patty topped with feta<br> cheese, olives, tomato, and a<br> tangy tzatziki sauce on a<br> lightly grilled bun.
+            </p>
+        </div>
+        <div class="top-menu-img">
+            <img  class="burger4" src="./images/top-img4.jpeg" alt="burger">
+            <h1>Vegan Bean Burger</h1>
+            <p>A black bean patty topped with<br> avocado, lettuce, tomato, and<br> a drizzle of chipotle tahini sauce<br> on a whole-grain bun.
+            </p>
+        </div>
+    </div>
+
+    <!--About-section-->
+    <section class="about">
+        <div class="about-img">
+            <img src="./images/about-burger.jpeg" alt="burger">
+        </div>
+
+        <div class="about-text">
+            <h1>About Us</h1>
+            <p>At Burger Delight, we believe in crafting the perfect burger experience for our customers. Established in 2008, our mission has always been to deliver mouthwatering, gourmet burgers made from the finest, freshest ingredients. From our juicy, grass-fed beef patties to our crisp, hand-cut fries, every bite is a testament to our dedication to quality and flavor.</p>
+            <p>At Burger Delight, we&apos;re not just about burgers. We offer a variety of options to cater to every taste, including vegetarian and vegan choices, fresh salads, and indulgent desserts. </p>
+            <p>Thank you for being part of our story. Whether you&apos;re a first-time visitor or a loyal customer, we&apos;re thrilled to share our passion for great food with you. Come join us and discover why Burger Delight is more than just a meal - it&apos;s an experience.</p>
+        </div>
+
+    </section>
+
+    <!-- menu-gallary-section -->
+   <div class="container">
+    <h2 class="title">Menu Gallary</h2>
+    <div class="photo-gallary">
+
+        <div class="column">
+            <div class="photo">
+                <img src="./images/grid-burger1.jpeg" alt="">
+            </div>
+            <div class="photo">
+                <img src="./images/grid-burger2.jpeg" alt="">
+            </div>
+            <div class="photo">
+                <img src="./images/grid-burger4.jpeg" alt="">
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="photo">
+                <img src="./images/grid-burger5.jpeg" alt="">
+            </div>
+            <div class="photo">
+                <img src="./images/grid-burger8.jpeg" alt="">
+            </div>
+            <div class="photo">
+                <img src="./images/grid-burger6.jpeg" alt="">
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="photo">
+                <img src="./images/grid-burger9.jpeg" alt="">
+            </div>
+            <div class="photo">
+                <img src="./images/grid-burger10.jpeg" alt="">
+            </div>
+            <div class="photo">
+                <img src="./images/grid-burger2.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+   </div> 
+
+   <!-- Footer-section-->
+   <footer>
+    <div class="footer-text">
+        <img src="./images/logo 1.png" alt="">
+        <p>Registered office</p>
+        <p><i class="fa-solid fa-location-dot"></i> &nbsp; No 52 Kaduna express way, Mando</p>
+        <p><i class="fa-solid fa-envelope"></i> &nbsp; </i>  bugerdelight@gmail.com &nbsp; &nbsp; <i class="fa-solid fa-phone"> &nbsp;</i> +2348064876478</p>
+        <p class="fav"><i class="fa-brands fa-facebook"></i> &nbsp; &nbsp; <i class="fa-brands fa-square-x-twitter"></i> &nbsp; &nbsp; <i class="fa-brands fa-square-instagram"></i></p>
+        <p>&copy;2024 bugerdelight. All Right Reserved</p>
+    </div>
+   </footer>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
