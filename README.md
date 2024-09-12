@@ -11,6 +11,8 @@ the use of flexbox and responsive web design.
 
 \*Implement responsiveness for tablet and mobile screens
 
+## GitHub Pages - https://ibeo-gh.github.io/Burger-Delight/
+
 ## Screenshot of how it looks
 
 <img src="/screenshots/screenshot1.png" alt="image" />
